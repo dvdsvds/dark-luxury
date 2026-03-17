@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Bodoni+Moda:ital,wght@0,400;0,500;1,400&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg: #0c0c0c;
+  --surface: #141414;
+  --gold: #c9a84c;
+  --gold-light: #e8c97a;
+  --white: #f0ede8;
+  --muted: #666;
+  --border: #222;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Didact Gothic', sans-serif; background: var(--bg); color: var(--white); overflow-x: hidden; }
